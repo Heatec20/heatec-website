@@ -60,5 +60,5 @@ export default function Values() {
         </div>
       </div>
     </section>
-  
-  è(ù
+  )
+}
