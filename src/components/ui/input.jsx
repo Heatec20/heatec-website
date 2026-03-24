@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { cn } from '@/lib/utils'
 
 const Input = React.forwardRef(
@@ -13,5 +14,6 @@ const Input = React.forwardRef(
     />
   )
 )
+Input.displayName = "Input"
 
 export { Input }
