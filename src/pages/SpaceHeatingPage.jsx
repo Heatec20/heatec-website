@@ -12,4 +12,6 @@ export default function SpaceHeatingPage() {
       <SolutionsHero solution="space" />
       <ProductSection solution="space" />
       <ProjectCTA />
-          
+    </>
+  )
+}
