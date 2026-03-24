@@ -15,12 +15,12 @@ export function LanguageProvider({ children }) {
   const changeLanguage = (newLang) => {
     setLanguage(newLang)
     localStorage.setItem('language', newLang)
-    setIsRTL=(newLang === 'ar')
+    setIsRTL(newLang === 'ar')
   }
 
   return (
     <LanguageContext.Provider value={{ language, changeLanguage, isRTL }}>
-      {cildren}
+      {children}
     </LanguageContext.Provider>
   )
 }
