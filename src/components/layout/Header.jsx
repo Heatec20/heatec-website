@@ -60,3 +60,41 @@ export default function Header() {
               <Link to="/contact">{t('nav.contactCta')}</Link>
             </Button>
           </div>
+          {/* Mobile menu toggle */}
+          <div className="md:hidden">
+            <Button variant="ghost" size="sm" onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </Button>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Navigation */}
+      {isOpen && (
+        <div className="md:hidden border-t border-border bg-white dark:bg-brand-dark">
+          <div className="px-4 py-3 space-y-2">
+            {navLinks.map((link) => (
+              <NavLink
+                key={link.path}
+                to={link.path}
+                end={link.end}
+                className={activeClassName}
+                onClick={() => setIsOpen(false)}
+              >
+                <div className="py-2">{link.name}</div>
+              </NavLink>
+            ))}
+            <div className="flex items-center gap-3 pt-2 border-t border-border">
+              <Button variant="ghost" size="sm" onClick={toggleLanguage} className="font-semibold">
+                {t('nav.language')}
+              </Button>
+              <Button asChild className="bg-brand-orange hover:bg-brand-orange-dark text-white" size="sm">
+                <Link to="/contact" onClick={() => setIsOpen(false)}>{t('nav.contactCta')}</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
+    </header>
+  )
+}
