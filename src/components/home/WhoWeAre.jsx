@@ -37,4 +37,5 @@ export default function WhoWeAre() {
         </div>
       </div>
     </section>
-  (ù
+  )
+}
