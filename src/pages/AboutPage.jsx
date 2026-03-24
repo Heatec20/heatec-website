@@ -1,5 +1,5 @@
 import AboutHero from '@/components/about/AboutHero'
-import CompanyStory from 'A/components/about/CompanyStory'
+import CompanyStory from '@/components/about/CompanyStory'
 import Values from '@/components/about/Values'
 import PartnerBrands from '@/components/about/PartnerBrands'
 import Awards from '@/components/about/Awards'
