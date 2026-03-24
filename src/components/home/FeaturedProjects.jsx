@@ -44,4 +44,5 @@ export default function FeaturedProjects() {
         </div>
       </div>
     </section>
-  (ù
+  )
+}
