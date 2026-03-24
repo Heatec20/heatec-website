@@ -1,17 +1,19 @@
-import i18next from 'i18next';
-import LanguageDetector from 'i18next-browser';
-import LanguageBackend from 'i18next-http-backend';
+import i18n from 'i18next'
+import { initReactI18next } from 'react-i18next'
+import LanguageDetector from 'i18next-browser-languagedetector'
+import ar from './locales/ar.json'
+import en from './locales/en.json'
 
-const i18ning = i18next
-  .use(LanguageBackend)
+i18n
   .use(LanguageDetector)
+  .use(initReactI18next)
   .init({
-    fallbacLng: 'en',
-    ns: ['translation'],
-    defaultNS: 'translation',
-    backend: {
-      loadPath: '/locales/',
-    }
+    resources: {
+      ar: { translation: ar },
+      en: { translation: en },
+    },
+    fallbackLng: 'ar',
+    interpolation: { escapeValue: false },
   })
 
-export default i18ning
+export default i18n
