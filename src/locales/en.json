@@ -1,1 +1,460 @@
-{"about":{"tag": "About Us", "heading": "ACour Company", "tagline": "We are Heatec Solutions", "body": "Our team is dedicated to providing top-notch heating solutions for both commercial and residential projects."}, "solutions": {"about": "Solutions", "poolHeating": "Pool Heating", "spaceHeating": "Space Heating", "hotWater": "Domestic Hot Water"}, "hero": {heading": "Nest Generation Heating Solutions", "subtitle": "Trusted by over 500 complex projects""}}
+{
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "blog": "Blog",
+    "contactCta": "Contact Us",
+    "language": "AR"
+  },
+  "hero": {
+    "title": "There Is No Place Like Home",
+    "subtitle": "Premium heating solutions for your home — designed for comfort, built to last.",
+    "ctaExplore": "Explore Solutions",
+    "ctaQuote": "Get a Quote"
+  },
+  "stats": {
+    "years": "5+ Years",
+    "yearsLabel": "Individual Expertise",
+    "team": "Expert Team",
+    "teamLabel": "Engineers & Technicians",
+    "service": "Top Service",
+    "serviceLabel": "Pre & After Sales Support"
+  },
+  "whoWeAre": {
+    "tag": "Who We Are",
+    "title": "Egypt's Trusted Heating Specialists",
+    "body": "Heatec Solutions is a Cairo-based company, founded in 2022 on a foundation of 20+ years of staff expertise in residential and commercial heating systems. We partner with the world's leading brands to bring you energy-efficient, reliable, and elegant solutions for every space.",
+    "cta": "Learn More About Us"
+  },
+  "trustedBrands": {
+    "heading": "Trusted Brands We Work With"
+  },
+  "solutions": {
+    "tag": "Our Solutions",
+    "heading": "Comfort Anywhere",
+    "subtitle": "Comprehensive heating solutions tailored for Egyptian homes and compounds.",
+    "spaceHeating": {
+      "title": "Space Heating",
+      "subtitle": "From underfloor heating and wall radiators to Thermaskirt and designer fireplaces.",
+      "items": [
+        "Underfloor Heating",
+        "Wall Radiators",
+        "Thermaskirt",
+        "CosyStone Radiators",
+        "Fireplaces"
+      ],
+      "cta": "View Details",
+      "products": [
+        {
+          "name": "Underfloor Heating",
+          "description": "The most comfortable and efficient way to heat your home — delivering even warmth from the floor up, completely invisible, and compatible with all floor finishes.",
+          "features": [
+            "Even heat distribution from floor to ceiling",
+            "100% invisible installation — no wall space used",
+            "Up to 40% more energy-efficient than radiators",
+            "Compatible with all floor types: tile, marble, wood, carpet"
+          ],
+          "brand": "Giacomini — Italy",
+          "warranty": "50-Year Guarantee on pipework",
+          "image": "https://images.unsplash.com/photo-1585128792020-803d29415281?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "name": "Wall Radiators",
+          "description": "A classic, reliable heating solution with modern aluminium designs for fast, effective warmth that heats and cools quickly in response to your thermostat.",
+          "features": [
+            "Fast response time — heats up and cools down quickly",
+            "Elegant aluminium design with curved surfaces",
+            "High heat output, available from 6 to 20 sections",
+            "Easy to clean, brilliant white powder-coated finish"
+          ],
+          "brand": "Faral / Sira",
+          "warranty": "15-Year Guarantee",
+          "image": "https://images.unsplash.com/photo-1585129777188-94600bc7b4b3?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "name": "Thermaskirt",
+          "description": "Imagine a home without radiators. ThermaSkirt is an innovative heating system hidden inside the skirting boards, freeing up every wall and delivering true radiant heat in minutes.",
+          "features": [
+            "Completely hidden inside skirting boards — no visible heaters",
+            "Frees up all wall space — furniture anywhere you want",
+            "True radiant heat with minimal air movement or draughts",
+            "Works with any floor finish and any boiler or heat pump"
+          ],
+          "brand": "ThermaSkirt — UK",
+          "warranty": "Manufacturer's warranty",
+          "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "name": "CosyStone Radiators",
+          "description": "Ultra-flat designer radiators in natural stone finishes — only 6.2cm thick. They integrate seamlessly into any interior, available in marble, stone, and custom colour options.",
+          "features": [
+            "Ultra-flat design: 6.2 – 8cm thick overall",
+            "Natural stone & marble finishes — unique to every room",
+            "Radiation-based warmth for gentle, even comfort",
+            "Anti-fog mirror version available for bathrooms"
+          ],
+          "brand": "CosyStone — UK",
+          "warranty": "Manufacturer's warranty",
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "name": "Fireplaces",
+          "description": "Premium European gas and wood fireplaces bringing cosy ambiance and effective heating to any room. The Barbas Bellfires collection combines Dutch engineering with contemporary design.",
+          "features": [
+            "Premium Dutch/European design",
+            "Natural gas, LPG, and wood-burning options",
+            "Panoramic, two-sided, and corner configurations",
+            "Safe, efficient, and visually stunning"
+          ],
+          "brand": "Barbas Bellfires",
+          "warranty": "Manufacturer's warranty",
+          "image": "https://barbas.com/_i/4118.jpg?v=1"
+        }
+      ]
+    },
+    "hotWater": {
+      "title": "Domestic Hot Water",
+      "subtitle": "Gas, electric, solar, and heat pump water heaters for every home.",
+      "items": [
+        "Gas Storage Water Heater",
+        "Electric Storage Water Heater",
+        "Tankless Water Heater",
+        "Solar Water Heater",
+        "Heat Pump Water Heater"
+      ],
+      "cta": "View Details",
+      "products": [
+        {
+          "name": "Gas Storage Water Heater",
+          "description": "Reliable large-volume hot water supply for residential and commercial applications. Features a Blue Diamond® glass lining and Coregard™ stainless steel anode rod for outstanding corrosion resistance.",
+          "features": [
+            "Capacities: 150, 200, and 300 litres",
+            "Automatic ignition — easy push-button start",
+            "Blue Diamond® glass lining for superior corrosion protection",
+            "Ultra-Low NOx emissions — environmentally responsible"
+          ],
+          "brand": "A.O. Smith — USA",
+          "warranty": "Manufacturer's warranty",
+          "image": "https://www.bradfordwhite.com/wp-content/uploads/2024/02/bw-homepage-featured-product-res-gas-atmos-vent-101-box-shadow-1.png"
+        },
+        {
+          "name": "Electric Storage Water Heater",
+          "description": "Efficient and easy to install, with advanced insulation for maximum heat retention. Incoloy stainless steel elements outlast standard copper — delivering consistent hot water for years.",
+          "features": [
+            "Capacities: 150, 200, and 300 litres",
+            "Advanced insulation for minimal heat loss",
+            "Incoloy stainless steel elements — last longer than copper",
+            "Coregard™ anode rod for extra corrosion protection"
+          ],
+          "brand": "A.O. Smith — USA",
+          "warranty": "Manufacturer's warranty",
+          "image": "https://www.dedietrich-heating.com/var/ddth/storage/images/media/fr/produits2/preparateur_bl_150_a_500/foto_de_producto_blc_150_500/971748-8-fre-FR/foto_de_producto_blc_150_500_vignette_gamme.jpg"
+        },
+        {
+          "name": "Tankless Water Heater",
+          "description": "Endless hot water on demand — no storage tank needed. A compact, space-saving design with high energy efficiency: you only heat the water you actually use.",
+          "features": [
+            "Hot water instantly, on demand — no waiting",
+            "Compact wall-mounted design saves space",
+            "Available in 16L, 20L, and 30L flow rates",
+            "Lower energy bills — no standby heat loss"
+          ],
+          "brand": "Heat Flow — UK",
+          "warranty": "Manufacturer's warranty",
+          "image": "https://www.unicalag.it/upload/blocchi/X1635foto6-1X_osa_-bianca_nera.jpg"
+        },
+        {
+          "name": "Solar Water Heater",
+          "description": "Harness Egypt's abundant sunshine to heat your water for free. An eco-friendly system with high-performance solar collectors and a reliable backup element for cloudy days.",
+          "features": [
+            "Uses free solar energy — drastically reduces bills",
+            "High-performance solar collectors",
+            "Reliable backup for overcast days",
+            "Sustainable, low-maintenance technology"
+          ],
+          "brand": "A.O. Smith — USA",
+          "warranty": "Manufacturer's warranty",
+          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "name": "Heat Pump Water Heater",
+          "description": "High-efficiency heat pump water heater with over 75% energy savings vs electric resistance heaters. Heats water up to 75°C with an intuitive LED display controller.",
+          "features": [
+            "Over 75% energy savings vs electric resistance heaters",
+            "Hot water up to 75°C",
+            "Capacities: 200, 250, and 300 litres",
+            "Low noise: 40dB(A) at 1 metre",
+            "Eco-friendly: no direct emissions"
+          ],
+          "brand": "Most Energy-Efficient Option",
+          "warranty": "Manufacturer's warranty",
+          "badge": "Most Energy Efficient",
+          "image": "https://gratpro.com/wp-content/uploads/2022/08/微信图片_20220810170820-768x1024.jpg"
+        }
+      ]
+    },
+    "pool": {
+      "title": "Swimming Pool Heating",
+      "subtitle": "Keep your pool warm year-round with efficient heat pumps and gas heaters.",
+      "items": [
+        "Heat Pump",
+        "Gas Pool Heater",
+        "Commercial Pool Heat Pump"
+      ],
+      "cta": "View Details",
+      "products": [
+        {
+          "name": "Heat Pump",
+          "description": "The most cost-effective way to keep your pool warm year-round. Heat pumps transfer warmth from the outdoor air into your pool water — using very little electricity for very high output.",
+          "features": [
+            "Year-round swimming — even in winter",
+            "COP up to 16 — extremely low operating costs",
+            "Quiet operation, eco-friendly refrigerant",
+            "Smart control app for your phone",
+            "Compressor lifespan: 15 to 20 years"
+          ],
+          "brand": "Nardi",
+          "warranty": "Compressor lifespan: 15–20 years",
+          "image": "https://gratpro.com/wp-content/uploads/2026/03/T-Inteli-Full-Inverter-Series-Residential-Pool-HeaterChiller.png"
+        },
+        {
+          "name": "Gas Pool Heater",
+          "description": "Rapidly heats your pool water regardless of weather or season. Direct gas heating with no separate heat exchanger — simple installation and lower upfront cost.",
+          "features": [
+            "Fast water heating — ready to swim quickly",
+            "Weather-independent — works in any conditions",
+            "Uses existing pool recirculation pump — no extra pump needed",
+            "Chlorinated and salt water compatible"
+          ],
+          "brand": "Italy / China",
+          "warranty": "Manufacturer's warranty",
+          "image": "https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?q=80&w=800&auto=format&fit=crop"
+        },
+        {
+          "name": "Commercial Pool Heat Pump",
+          "description": "Full DC Inverter commercial heat pump from 50kW to 190kW. Intelligently adjusts heat output to match demand — cutting operational costs for hotels, clubs, and large compounds.",
+          "features": [
+            "Capacity range: 50kW to 190kW",
+            "COP over 18 — industry-leading efficiency",
+            "R290 refrigerant (GWP=3) — highly eco-friendly",
+            "Group control for up to 16 units",
+            "7-inch touchscreen + WiFi smart control"
+          ],
+          "brand": "For Hotels, Clubs & Large Compounds",
+          "warranty": "Manufacturer's warranty",
+          "badge": "For Large Projects",
+          "image": "https://gratpro.com/wp-content/uploads/2023/03/9.5kW-Swimming-Pool-Spa-Heat-Pump-1-jpg.webp"
+        }
+      ]
+    }
+  },
+  "benefits": {
+    "heading": "Benefits of Our Solutions",
+    "items": [
+      {
+        "title": "Energy Efficient",
+        "desc": "Reduce your energy consumption without sacrificing comfort."
+      },
+      {
+        "title": "Free Up Wall Space",
+        "desc": "Underfloor and Thermaskirt systems keep your walls clear."
+      },
+      {
+        "title": "Fast & Responsive",
+        "desc": "Quick installation and responsive after-sales support."
+      },
+      {
+        "title": "Simple Installation",
+        "desc": "Engineered for straightforward fitting by our certified team."
+      },
+      {
+        "title": "Works With Any Floor",
+        "desc": "Compatible with tile, marble, wood, and carpet finishes."
+      },
+      {
+        "title": "True Aftersales",
+        "desc": "We stand behind every installation with ongoing maintenance."
+      }
+    ]
+  },
+  "fireplaces": {
+    "tag": "Premium Fireplaces",
+    "heading": "Barbas Bellfires Collection",
+    "subtitle": "Bringing European warmth and design to Egyptian homes.",
+    "products": [
+      {
+        "name": "Evolux Fireplace",
+        "desc": "A panoramic, double-sided gas fireplace delivering dramatic visual impact and efficient radiant heat."
+      },
+      {
+        "name": "Gas Fire Panorama",
+        "desc": "A wide-view gas fire with a realistic flame effect, ideal for open-plan living areas."
+      }
+    ],
+    "cta": "Explore Fireplaces",
+    "page_label": "Luxury Fireplaces",
+    "page_heading": "Barbas Bellfires Collection",
+    "page_subheading": "Luxury European fireplaces — where warmth meets design.",
+    "brand_intro": "Barbas Bellfires — Netherlands",
+    "brand_body": "Founded in the Netherlands, Barbas Bellfires is one of Europe's most respected fireplace brands. Heatec Solutions is the exclusive distributor in Egypt, bringing a curated selection of gas and wood-burning models to Egyptian homes.",
+    "detail_products": {
+      "evolux": {
+        "name": "Evolux",
+        "body": "A stunning two-sided panoramic gas fireplace. The Evolux creates a floating flame visible from two rooms — an architectural centrepiece as much as a heating appliance.",
+        "features": [
+          "Two-sided panoramic view",
+          "Realistic flame effect",
+          "Powerful radiant heat",
+          "Natural gas or LPG"
+        ]
+      },
+      "panorama": {
+        "name": "Gas Fire Panorama",
+        "body": "Wide-angle single-sided gas fireplace with a large glass front and a strikingly realistic flame. Ideal for living rooms and open-plan spaces.",
+        "features": [
+          "Wide viewing angle",
+          "Realistic flame effect",
+          "Efficient radiant heat",
+          "Natural gas or LPG"
+        ]
+      },
+      "wood": {
+        "name": "Wood-Burning Fireplaces",
+        "body": "For those who love the crackle and scent of real wood, Barbas Bellfires offers contemporary wood-burning models engineered for high combustion efficiency and low emissions.",
+        "features": [
+          "Real wood burning",
+          "High combustion efficiency",
+          "Contemporary European design",
+          "Clean-burn technology"
+        ]
+      }
+    },
+    "cta_heading": "Bring European Fireplace Design to Your Home",
+    "cta_body": "Visit our showroom or contact us for a personalised recommendation.",
+    "cta_button": "Request a Consultation"
+  },
+  "featuredProjects": {
+    "tag": "Featured Projects",
+    "heading": "Trusted by Egypt's Premier Compounds",
+    "cta": "Start Your Project With Us",
+    "projects": [
+      "Mountain View",
+      "Hyde Park",
+      "Diplomates Compound",
+      "El Garnatel 5"
+    ]
+  },
+  "getInTouch": {
+    "heading": "Get In Touch",
+    "subtitle": "Ready to upgrade your home's heating? Contact us today.",
+    "phone": "01204366660",
+    "email": "info@heatec-eg.com",
+    "address": "Cairo, Egypt",
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "about": {
+    "tag": "About Us",
+    "heading": "Innovating For Tomorrow",
+    "tagline": "Efficiency meets Elegance",
+    "body": "Heatec Solutions was founded in Cairo with a clear purpose: making premium European heating technology accessible to Egyptian homeowners and developers. Founded in 2022, our company is built on a foundation of veteran leadership — our core technical and management staff bring over 20 years of specialised heating expertise to every project.",
+    "values": {
+      "heading": "Why Choose Heatec",
+      "items": [
+        {
+          "title": "Expert Team",
+          "desc": "Certified engineers with deep product knowledge and hands-on installation experience."
+        },
+        {
+          "title": "Trusted Advice",
+          "desc": "We only recommend what genuinely suits your space and budget — no overselling."
+        },
+        {
+          "title": "Best Practices",
+          "desc": "Every installation follows manufacturer standards and industry best practices."
+        }
+      ]
+    },
+    "partners": {
+      "heading": "Our Trusted Partners"
+    },
+    "awards": {
+      "heading": "Recognition",
+      "badge": "National Heat Pump Awards Winner"
+    }
+  },
+  "projects": {
+    "tag": "Our Projects",
+    "heading": "Trusted by Premium Compounds",
+    "subtitle": "Trusted by premium compounds and residential projects across Egypt",
+    "cta": "Start a New Project"
+  },
+  "contact": {
+    "tag": "Contact Us",
+    "heading": "Let's Talk",
+    "subtitle": "Reach out to discuss your heating project.",
+    "address": "Cairo, Egypt",
+    "phone": "01204366660",
+    "email": "info@heatec-eg.com",
+    "whatsapp": "WhatsApp Us",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Thank you! We'll be in touch soon.",
+      "error": "Submission failed. Please try again or email us directly.",
+      "sendAnother": "Send another message"
+    }
+  },
+  "footer": {
+    "tagline": "Premium heating solutions for Egyptian homes.",
+    "solutions": {
+      "heading": "Solutions",
+      "spaceHeating": "Space Heating",
+      "hotWater": "Domestic Hot Water",
+      "poolHeating": "Pool Heating"
+    },
+    "company": {
+      "heading": "Company",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy Policy"
+    },
+    "social": {
+      "heading": "Follow Us",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© 2026 Heatec Solutions. All rights reserved."
+  },
+  "blog": {
+    "page_label": "Blog",
+    "page_heading": "Heating Tips & Insights",
+    "page_subheading": "Expert articles on home heating, energy savings, and comfort.",
+    "read_more": "Read More →",
+    "back_to_blog": "← Back to Blog"
+  },
+  "notFound": {
+    "title": "404 — Page Not Found",
+    "body": "The page you're looking for doesn't exist.",
+    "cta": "Back to Home"
+  }
+}
