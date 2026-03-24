@@ -73,3 +73,21 @@ export default function CompoundLogos() {
             {t('projects.subtitle')}
           </p>
         </div>
+        {/* Compound grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+          {compounds.map((name, i) => (
+            <div
+              key={i}
+              className="group flex items-center justify-center rounded-lg border border-gray-100 bg-gray-50 hover:border-brand-orange hover:bg-brand-orange/5 transition-all duration-200 px-3 py-4 text-center"
+            >
+              <span className="text-sm font-medium text-gray-700 group-hover:text-brand-orange transition-colors" dir="auto">
+                {name}
+              </span>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  )
+}
