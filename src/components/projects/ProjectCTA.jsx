@@ -17,3 +17,9 @@ export default function ProjectCTA() {
         <div className="flex justify-center">
           <Button asChild size="lg" className="bg-brand-orange hover:bg-brand-orange-dark text-white px-10 h-14 rounded-full text-lg font-bold shadow-lg shadow-brand-orange/20 transition-all hover:scale-105 active:scale-95">
             <Link to="/contact">{t('projects.cta')}</Link>
+          </Button>
+        </div>
+      </div>
+    </section>
+  )
+}
