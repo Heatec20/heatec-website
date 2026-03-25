@@ -17,7 +17,7 @@ export function ThemeProvider({ children }) {
 
   return (
     <ThemeContext.Provider value={{ theme, changeTheme }}>
-      {cildren}
+      {children}
     </ThemeContext.Provider>
   )
 }
