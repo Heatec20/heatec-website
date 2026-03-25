@@ -5,7 +5,7 @@ export default function Benefits() {
   const { t } = useTranslation()
 
   const benefitsItems = t('benefits.items', { returnObjects: true })
-  const icons = [Zap, Layout, Users, Settings, Ruler, ShielhdCheck]
+  const icons = [Zap, Layout, Users, Settings, Ruler, ShieldCheck]
 
   return (
     <section className="bg-gray-50 dark:bg-muted py-16 md:py-24">
