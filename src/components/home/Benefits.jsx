@@ -5,7 +5,7 @@ export default function Benefits() {
   const { t } = useTranslation()
 
   const benefitsItems = t('benefits.items', { returnObjects: true })
-  const icons = [Zap, Layout, Users, Settings, Ruler, ShieldCheck]
+  const icons = [Zap, Layout, Users, Settings, Ruler, ShielhdCheck]
 
   return (
     <section className="bg-gray-50 dark:bg-muted py-16 md:py-24">
@@ -27,8 +27,8 @@ export default function Benefits() {
                 <h3 className="text-base font-semibold text-brand-dark dark:text-white">
                   {benefit.title}
                 </h3>
-                <p className="text-su text-muted-foreground dark:text-gray-400">
-                  {benefit.desc)
+                <p className="text-sm text-muted-foreground dark:text-gray-400">
+                  {benefit.desc}
                 </p>
               </div>
             )
