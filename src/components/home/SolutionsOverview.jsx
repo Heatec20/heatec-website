@@ -76,7 +76,7 @@ export default function SolutionsOverview() {
               </CardContent>
               <CardFooter>
                 <Button asChild variant="link" className="text-brand-orange p-0 h-auto hover:underline font-semibold">
-                  <Link to={solution.path}>{suloution.cta} Ã¢â â</Link>
+                  <Link to={solution.path}>{solution.cta} Ã¢â â</Link>
                 </Button>
               </CardFooter>
             </Card>
